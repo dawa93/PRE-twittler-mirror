@@ -1,17 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <title>twittler</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-  <script src="data.js"></script>
-</head>
-<body>
-  <!-- 여기에 HTML 구조를 작성하세요. 아래 코드는 예제이며, 얼마든지 바꿀 수 있습니다 -->
-  <div id="greeting">twittler</div>
-  <div id="test"></div>
+  <head>
+    <meta charset="utf-8" />
+    <title>twittler</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <!-- <script src="data.js"></script> -->
+  </head>
+  <body>
+    <!-- 여기에 HTML 구조를 작성하세요. 아래 코드는 예제이며, 얼마든지 바꿀 수 있습니다 -->
+    <div class="header">
+      <img class="logo" src="/bird.png" alt="twitter_bird" />
+      <div id="title">
+        twittler
+      </div>
+    </div>
+    <div id="box">
+      <div class="username">username</div>
+      <input type="text" class="username_box" />
 
-  <script src="script.js"></script>
-</body>
+      <div class="comment">comment</div>
+      <input type="text" class="comment_box" />
+      <button class="tweet_button">Tweet!</button>
+      <!-- <button class="tweet_button" onclick="putNewTweet()">Tweet!</button> -->
+    </div>
+    
+    <div id="feed2">
+      <button class="check"><span>check new tweet</span></button>
+    </div>
+
+    <div id="feed">
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>

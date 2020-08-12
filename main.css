@@ -11,3 +11,167 @@
   margin: 0.5em;
   padding: 0.5em;
 }
+body {
+  margin: 0px;
+  font-family: "Lucida Console", Courier, monospace;
+}
+.header {
+  background: #00acee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 16px 10%;
+  border-radius: 8px;
+}
+.logo {
+  width: 10%;
+  height: 10%;
+  position: relative;
+  /* left: 150px; */
+  /* top: 100px; */
+  right: 32px;
+}
+#title {
+  /* text-align: center; */
+  /* border: 2px solid; */
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  /* margin-left: 10%;
+  margin-right: 10%; */
+  /* margin-bottom: 8px; */
+  text-shadow: 2px 2px black;
+  text-decoration: white;
+}
+#box {
+  background: #00acee;
+  margin-left: 10%;
+  margin-right: 10%;
+
+  height: 312px;
+  border-radius: 8px;
+  /* box-shadow: 10px 10px 10px 5px rgb(129, 129, 235); */
+}
+.username {
+  font-style: oblique;
+  font-size: 32px;
+  padding: 4px;
+  position: relative;
+  left: 16px;
+  top: 8px;
+}
+
+.comment {
+  font-style: oblique;
+  font-size: 32px;
+  position: relative;
+  left: 16px;
+  top: 8px;
+  padding: 4px;
+}
+.tweet_button {
+  display: block;
+  width: 80px;
+  height: 40px;
+  text-align: center;
+  border-style: none;
+  box-shadow: 3px 3px 1px 1px skyblue;
+  position: relative;
+  left: 16px;
+  top: 24px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.tweet_button:hover {
+  background: #83a3af;
+}
+
+.tweet_button:active {
+  background-color: #83a3af;
+  box-shadow: 0 4px #666;
+  transform: translateY(4px);
+}
+/* 웹페이지 크기 수정 */
+.username_box {
+  width: 70%;
+  height: 24px;
+  border-style: none;
+  padding: 4px;
+  position: relative;
+  left: 16px;
+  top: 8px;
+}
+.comment_box {
+  width: 90%;
+  height: 100px;
+  border-style: none;
+  position: relative;
+  left: 16px;
+  top: 8px;
+  padding: 4px;
+}
+#feed2 {
+  background: #b7e4f7;
+  height: 48px;
+  border-radius: 8px 8px 0px 0px;
+  margin: 16px 10% 0px 10%;
+}
+#feed {
+  background: #00acee;
+  height: 100%;
+  margin: 0px 10%;
+  border-radius: 0px 0px 8px 8px;
+  /* width: ; */
+}
+
+.check {
+  width: 160px;
+  height: 32px;
+  margin: 8px 16px;
+  font-weight: bold;
+  border-style: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.check:hover {
+  background: #83a3af;
+}
+
+.check:hover span {
+  padding-right: 10px;
+}
+
+.check:hover span:after {
+  opacity: 1;
+  right: 0;
+  content: "\00bb";
+  position: absolute;
+  right: 680px;
+}
+.check:active {
+  background-color: #83a3af;
+  box-shadow: 0 4px #666;
+  transform: translateY(4px);
+}
+.line {
+  background: rgb(249, 240, 240);
+  height: 1px;
+  margin-top: 16px;
+}
+.newfeed {
+  margin: 0% 3% 0% 3%;
+}
+.nickname {
+  font-weight: bold;
+  font-size: 18px;
+}
+.date {
+  float: right;
+  font-size: 18px;
+}
+.user_comment {
+  font-size: 18px;
+}
